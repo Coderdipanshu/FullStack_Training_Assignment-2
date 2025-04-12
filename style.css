@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .mainCont {
+    width: 100%;
+  }
+  
+  .nav {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navSec1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo p {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .logo span {
+    font-weight: normal;
+    font-size: 12px;
+  }
+  
+  .search input[type="text"] {
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 40px;
+  }
+  
+  .search input[type="submit"] {
+    padding: 5px 10px;
+    margin-left: 5px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  .search{
+    position: relative;
+  }
+
+  .search i{
+    position: absolute;
+    top: 13px;
+    left: 20px;
+  }
+  
+  .login {
+    margin-left: auto;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .bodyContainer {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .leftNav {
+    width: 20%;
+    font-size: 14px;
+  }
+  
+  .leftNav ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .leftNav ul ul {
+    padding-left: 15px;
+  }
+
+  .sideMenu{
+    line-height: 40px;
+  }
+  
+  .middle {
+    width: 60%;
+  }
+  
+  .middle h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .middle p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  .middle .side-img {
+    float: right;
+    margin: 10px 0 10px 20px;
+    width: 250px;
+    border: 1px solid #ccc;
+  }
+  
+  .img-caption {
+    font-size: 12px;
+    color: #555;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  .rightNav {
+    width: 20%;
+    font-size: 14px;
+    line-height: 30px;
+  }
+  
+  .rightNav h4 {
+    margin-bottom: 10px;
+  }
+  
+.natureImg{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 310px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+
+}

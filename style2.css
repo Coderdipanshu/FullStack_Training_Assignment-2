@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(203, 136, 12, 0.862);
+}
+
+.nav p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    color: rgb(104, 7, 104);
+}
